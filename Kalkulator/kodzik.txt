@@ -1,0 +1,332 @@
+/*
+ * Paczka Kalkulator
+ */
+package javaKalkulator;
+
+/**
+ *
+ * @author Tomek
+ */
+public class MatKalkulator extends javax.swing.JFrame {
+
+    /**
+     * Creates new form MatKalkulator
+     */
+    public MatKalkulator() {
+        initComponents();
+    }
+
+    
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        txtWynik = new javax.swing.JTextField();
+        jPanel2 = new javax.swing.JPanel();
+        btnJeden = new javax.swing.JButton();
+        btnDwa = new javax.swing.JButton();
+        btnTrzy = new javax.swing.JButton();
+        btnCztery = new javax.swing.JButton();
+        btnPiec = new javax.swing.JButton();
+        btnSzesc = new javax.swing.JButton();
+        btnDziewiec = new javax.swing.JButton();
+        btnOsiem = new javax.swing.JButton();
+        btnSiedem = new javax.swing.JButton();
+        btnBin = new javax.swing.JButton();
+        btnOct = new javax.swing.JButton();
+        btnHex = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Kalkulator 1.0 by ...");
+        setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+
+        txtWynik.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        txtWynik.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        txtWynik.setName("txtWynik"); // NOI18N
+
+        btnJeden.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnJeden.setText("1");
+        btnJeden.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnJedenActionPerformed(evt);
+            }
+        });
+
+        btnDwa.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnDwa.setText("2");
+        btnDwa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDwaActionPerformed(evt);
+            }
+        });
+
+        btnTrzy.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnTrzy.setText("3");
+        btnTrzy.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTrzyActionPerformed(evt);
+            }
+        });
+
+        btnCztery.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnCztery.setText("4");
+        btnCztery.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCzteryActionPerformed(evt);
+            }
+        });
+
+        btnPiec.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnPiec.setText("5");
+        btnPiec.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPiecActionPerformed(evt);
+            }
+        });
+
+        btnSzesc.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnSzesc.setText("6");
+        btnSzesc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSzescActionPerformed(evt);
+            }
+        });
+
+        btnDziewiec.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnDziewiec.setText("9");
+        btnDziewiec.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDziewiecActionPerformed(evt);
+            }
+        });
+
+        btnOsiem.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnOsiem.setText("8");
+        btnOsiem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOsiemActionPerformed(evt);
+            }
+        });
+
+        btnSiedem.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnSiedem.setText("7");
+        btnSiedem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSiedemActionPerformed(evt);
+            }
+        });
+
+        btnBin.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnBin.setText("BIN");
+        btnBin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBinActionPerformed(evt);
+            }
+        });
+
+        btnOct.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnOct.setText("OCT");
+        btnOct.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnOctActionPerformed(evt);
+            }
+        });
+
+        btnHex.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnHex.setText("HEX");
+        btnHex.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnHexActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(btnJeden)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnDwa)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnTrzy)
+                        .addGap(92, 92, 92)
+                        .addComponent(btnBin)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnOct)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnHex))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(btnCztery)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnPiec)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnSzesc))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(btnSiedem)
+                        .addGap(10, 10, 10)
+                        .addComponent(btnOsiem)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnDziewiec)))
+                .addContainerGap(288, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnJeden, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnDwa, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnTrzy, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnBin, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnOct, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnHex, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCztery, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnPiec, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnSzesc, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnDziewiec, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnOsiem, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnSiedem, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(345, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtWynik, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(84, 84, 84)
+                .addComponent(txtWynik, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        pack();
+    }// </editor-fold>                        
+
+    private void btnJedenActionPerformed(java.awt.event.ActionEvent evt) {                                         
+       String btnJedenTekst = txtWynik.getText() + btnJeden.getText();
+       txtWynik.setText(btnJedenTekst);        
+    }                                        
+
+    private void btnDwaActionPerformed(java.awt.event.ActionEvent evt) {                                       
+       String btnDwaTekst = txtWynik.getText() + btnDwa.getText();
+       txtWynik.setText(btnDwaTekst); 
+    }                                      
+
+    private void btnTrzyActionPerformed(java.awt.event.ActionEvent evt) {                                        
+       String btnTrzyTekst = txtWynik.getText() + btnTrzy.getText();
+       txtWynik.setText(btnTrzyTekst);
+    }                                       
+
+    private void btnPiecActionPerformed(java.awt.event.ActionEvent evt) {                                        
+       String btnPiecTekst = txtWynik.getText() + btnPiec.getText();
+       txtWynik.setText(btnPiecTekst);
+    }                                       
+
+    private void btnCzteryActionPerformed(java.awt.event.ActionEvent evt) {                                          
+       String btnCzteryTekst = txtWynik.getText() + btnCztery.getText();
+       txtWynik.setText(btnCzteryTekst);
+    }                                         
+
+    private void btnSzescActionPerformed(java.awt.event.ActionEvent evt) {                                         
+       String btnSzescTekst = txtWynik.getText() + btnSzesc.getText();
+       txtWynik.setText(btnSzescTekst);
+    }                                        
+
+    private void btnSiedemActionPerformed(java.awt.event.ActionEvent evt) {                                          
+       String btnSiedemTekst = txtWynik.getText() + btnSiedem.getText();
+       txtWynik.setText(btnSiedemTekst);
+    }                                         
+
+    private void btnOsiemActionPerformed(java.awt.event.ActionEvent evt) {                                         
+       String btnOsiemTekst = txtWynik.getText() + btnOsiem.getText();
+       txtWynik.setText(btnOsiemTekst);
+    }                                        
+
+    private void btnDziewiecActionPerformed(java.awt.event.ActionEvent evt) {                                            
+       String btnDziewiecTekst = txtWynik.getText() + btnDziewiec.getText();
+       txtWynik.setText(btnDziewiecTekst);
+    }                                           
+
+    private void btnBinActionPerformed(java.awt.event.ActionEvent evt) {                                       
+        // TODO add your handling code here:
+    }                                      
+
+    private void btnOctActionPerformed(java.awt.event.ActionEvent evt) {                                       
+        // TODO add your handling code here:
+    }                                      
+
+    private void btnHexActionPerformed(java.awt.event.ActionEvent evt) {                                       
+        // TODO add your handling code here:
+    }                                      
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(MatKalkulator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(MatKalkulator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(MatKalkulator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(MatKalkulator.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new MatKalkulator().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnBin;
+    private javax.swing.JButton btnCztery;
+    private javax.swing.JButton btnDwa;
+    private javax.swing.JButton btnDziewiec;
+    private javax.swing.JButton btnHex;
+    private javax.swing.JButton btnJeden;
+    private javax.swing.JButton btnOct;
+    private javax.swing.JButton btnOsiem;
+    private javax.swing.JButton btnPiec;
+    private javax.swing.JButton btnSiedem;
+    private javax.swing.JButton btnSzesc;
+    private javax.swing.JButton btnTrzy;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JTextField txtWynik;
+    // End of variables declaration                   
+}
